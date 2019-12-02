@@ -1237,8 +1237,6 @@ public final class DownloadProvider extends ContentProvider {
         qb.setTables(table);
         qb.setProjectionMap(projectionMap);
         qb.setStrict(true);
-        qb.setStrictColumns(true);
-        qb.setStrictGrammar(true);
         qb.appendWhere(where);
         return qb;
     }
